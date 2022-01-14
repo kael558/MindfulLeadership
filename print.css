@@ -1,0 +1,13 @@
+@media print {
+   #resultsDiv {
+  	width: 100%;
+    }
+   img {
+  	position: absolute;
+  	left: 10px;
+  	top: 50px;
+    }
+   #printButton{
+	display: none;
+   }
+}

@@ -169,6 +169,12 @@ function displayResults(){
   }
 }
 
+function printPage(){
+	window.print();
+}
+
+
+
 
 
 
