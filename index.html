@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <img src="logo.png">
+  <h1>Mindful Leadership Questionnaire - 30 Questions</h1>
+  <div id="inputDiv">
+    
+    <form action="javascript:submitScore()">
+      <label for="score" id="question">Question</label><br>
+      <input type="text" id="score" name="score" autocomplete="off">
+      <input type="submit" value="Submit">
+    </form>
+    <text id="progress"> 1/30 </text>
+    <div id="key">
+	<text>1 - Not Agree | 5 - Agree </text>
+    </div>
+    
+  </div>
+
+  <div id="resultsDiv">
+    <h2>Results</h2>
+  </div>
+
+  <script src="index.js"></script>
+  </body>
+</html>
