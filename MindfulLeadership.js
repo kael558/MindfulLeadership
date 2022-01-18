@@ -33,6 +33,8 @@ const questions = [
 
 let scores = []
 
+//https://colorhunt.co/palette/b983ff94b3fd94daff99feff
+
 const groupings ={
   "Challenging the Process - Desire for Improvement": [2, 7, 12, 17, 22, 27],
   "Inspiring a Shared Vision - Visioning and Influencing Commitment": [1, 6, 11, 16, 21, 26],

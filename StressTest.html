@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="index.html"> <img src="logo.png"></a>
+    <h1> Stress Test - 10 Questions</h1>
+    <div id="inputDiv">
+        <form action="javascript:submitScore()">
+            <table>
+                <tr>
+                    <th>In the last month, how often have you:</th>
+                    <th>Never</th>
+                    <th>Almost Never (1 point)</th>
+                    <th>Some-times (2 points)</th>
+                    <th>Fairly Often (3 points)</th>
+                    <th>Very Often (4 points)</th>
+                </tr>
+                <tr>
+                    <td id="question"></td>
+                    <td><input type="radio" name="score" value="0"></td>
+                    <td><input type="radio" name="score" value="1"></td>
+                    <td><input type="radio" name="score" value="2"></td>
+                    <td><input type="radio" name="score" value="3"></td>
+                    <td><input type="radio" name="score" value="4"></td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit">
+        </form>
+        <text id="progress"> 1/10 </text>
+    </div>
+
+
+    <div id="resultsDiv">
+        <h2>Results</h2>
+        <button id="printButton" onclick="printPage()">Print this page</button>
+    </div>
+
+    <div id="source">
+        <text>
+            Adapted from: Perceived Stress Scale - Sheldon Cohen
+        </text>
+    </div>
+    <script src="StressTest.js"></script>
+</body>
+</html>

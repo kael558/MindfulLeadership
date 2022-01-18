@@ -2,34 +2,13 @@
 <html>
   <head>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="print.css" media="print">
   </head>
   <body>
-  <img src="logo.png">
-  <h1>Mindful Leadership Questionnaire - 30 Questions</h1>
-  <div id="inputDiv">
-    
-    <form action="javascript:submitScore()">
-      <label for="score" id="question">Question</label><br>
-      <input type="text" id="score" name="score" autocomplete="off">
-      <input type="submit" value="Submit">
-    </form>
-    <text id="progress"> 1/30 </text>
-    <div id="key">
-	<text>1 - Not Agree | 5 - Agree </text>
-    </div>
-    
-  </div>
-
-  <div id="resultsDiv">
-    <h2>Results</h2>
-    <button id="printButton" onclick="printPage()">Print this page</button>
-  </div>
-
-  <div id="source">
-   <text>Source: Sage 8 Australia; Sage Training Australia; Sage
-Ontario; http://www.leadershipchallenge.com/home.aspx&gt;</text>
-  </div>
-  <script src="index.js"></script>
+      <a href="index.html"> <img src="logo.png"></a>
+      <div id="listDiv">
+          <h1>Sage Ontario Questionnaires</h1>
+          <a href="MindfulLeadership.html"> <div class="link"> Mindful Leadership Questionnaire</div> </a>
+          <a href="StressTest.html"> <div class="link"> Stress Test Questionnaire</div> </a>
+      </div>
   </body>
 </html>
